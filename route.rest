@@ -1,0 +1,11 @@
+GET http://localhost:5000/videos/g
+
+###
+
+POST http://localhost:5000/videos/p
+Content-Type: application/json
+
+{
+    "title":"titleOfVideo",
+    "videoLink": "xxxxxxxxxxxxxxxxx"
+}
